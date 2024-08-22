@@ -82,7 +82,7 @@ public class ExtentReportsWithTestNG {
 	}
 
 	@Test
-	public void ClickNHome() {
+	public void createSettingTest() {
 		test = extent.createTest("Verify Change Password Menu Page")
 				.assignAuthor("Tester")
 				.assignCategory("WhiteBox Test")

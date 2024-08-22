@@ -32,7 +32,7 @@ import com.cnm.clickndoc.ProcedureTest;
 import com.cnm.clickndoc.RoleTest;
 import com.cnm.clickndoc.TitleTest;
 import com.cnm.clicknmaintain.AssetTest;
-import com.cnm.clicknmaintain.MaintainSettingTest;
+import com.cnm.clicknmaintain.MaintainSettingsTest;
 import com.cnm.clicknprofile.ChangePasswordTest;
 import com.cnm.clicknprofile.LogoutTest;
 import com.cnm.clicknprofile.ProfileTest;
@@ -64,9 +64,9 @@ import com.cnm.report.ExtentReportsWithTestNG;
 	//WebDriverManager.chromedriver().setup();
 	//WebDriverManager.firefoxdriver().setup();
     	
-    WebDriver driver = new ChromeDriver();		
-	final String SERVER_URL = "http://localhost:8080/";
-	driver.get(SERVER_URL); 
+        WebDriver driver = new ChromeDriver();		
+	    final String SERVER_URL = "http://localhost:8080/";
+	    driver.get(SERVER_URL); 
 	 
 	//WebDriver driver = getChromeDriver(SERVER_URL); 
 	
@@ -113,8 +113,8 @@ import com.cnm.report.ExtentReportsWithTestNG;
 	//HomepageTest.updateHomepageTest(driver);
 	//SubOrganizationTest.createSubOrganizationTest(driver);
 	//SubOrganizationTest.updateSubOrganizationTest(driver);
-	//MaintainSettingTest.createMaintainSettingTest(driver);
-	//MaintainSettingTest.updateMaintainSettingTest(driver);
+	MaintainSettingsTest.createMaitainSettingsTest(driver);
+	//MaintainSettingsTest.updateMaintainSettingsTest(driver);
 	//AssetTest.createAssetTest(driver);
     //AssetTest.updateAssetTest(driver);
 	//ProfileTest.updateProfileTest(driver);
