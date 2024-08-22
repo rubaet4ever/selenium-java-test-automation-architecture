@@ -5,12 +5,12 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class MaintainSettingsTest {
+public class MaintainSettingTest {
           
-	public static void createMaitainSettingsTest(WebDriver driver) {
+	public static void createMaintainSettingTest(WebDriver driver) {
 		// TODO Auto-generated method stub
 		try {
-			driver.findElement(By.id("email")).sendKeys("rubaet@bs.com");
+			driver.findElement(By.id("email")).sendKeys("rubaet@cnm.com");
 			Thread.sleep(2000);
 			driver.findElement(By.id("password")).sendKeys("rubaet1@R");
 			Thread.sleep(2000);
@@ -155,6 +155,8 @@ public class MaintainSettingsTest {
 			driver.findElement(By.cssSelector("#color")).click();
 			Thread.sleep(2000);
 			
+			
+			
 			driver.findElement(By.cssSelector(".panel-body:nth-child(1)")).click();
 			Thread.sleep(2000);
 			
@@ -195,14 +197,18 @@ public class MaintainSettingsTest {
 			
 			driver.findElement(By.cssSelector("#bgColor")).sendKeys("#ffffff");
 			Thread.sleep(2000);
-						
+			
+			
 			driver.findElement(By.xpath("//form[@id='dependencyType_form_submit']/div/div/div[5]/span/span/span/span")).click();;
 		    Thread.sleep(2000);
-					    
+			
+		    
 		    driver.findElement(By.className("select2-search__field")).sendKeys("Ast-09 - Asset Type 9");
 			Thread.sleep(2000);
 			driver.findElement(By.className("select2-search__field")).sendKeys(Keys.ENTER);
-			Thread.sleep(2000); 					
+			Thread.sleep(2000); 
+			
+			
 			
 			driver.findElement(By.linkText("Description")).click();
 			Thread.sleep(2000);
@@ -245,7 +251,7 @@ public class MaintainSettingsTest {
 			driver.findElement(By.xpath("(//div[@id='modal-dialog-div']/div/div/button/span)[2]")).click();
 			Thread.sleep(3000);
 
-			driver.quit();
+			
 		
 			}catch(Exception e) {
 				e.printStackTrace();
@@ -255,10 +261,10 @@ public class MaintainSettingsTest {
 
 	}
 	
-	public static void updateMaintainSettingsTest(WebDriver driver) {
+	public static void updateMaintainSettingTest(WebDriver driver) {
 		// TODO Auto-generated method stub
 		try {
-			driver.findElement(By.id("email")).sendKeys("rubaet@bs.com");
+			driver.findElement(By.id("email")).sendKeys("rubaet@cnm.com");
 			Thread.sleep(2000);
 			driver.findElement(By.id("password")).sendKeys("rubaet1@R");
 			Thread.sleep(2000);
@@ -525,7 +531,6 @@ public class MaintainSettingsTest {
 			driver.findElement(By.xpath("(//div[@id='modal-dialog-div']/div/div/button/span)[2]")).click();
 			Thread.sleep(3000);
 			
-			driver.quit();
 		
 			}catch(Exception e) {
 				e.printStackTrace();
