@@ -1,9 +1,7 @@
 
-<h1 align="left">Click-N-Manage</h1>
-  
-I have implemented using Java language with Web-automation test project Selenium Web-Driver, JUnit, Extentreports, and worked with TestNG in this project.
-
-The website link can be found in localhost when the database runs.
+<h1 align="left">Selenium Java Test Automation Architecture</h1>
+Ready-to-use UI Test Automation Architecture using Java and Selenium WebDriver. Implemented using Java language with UI Web-automation test project, Selenium Web-Driver, JUnit, Extentreports, and worked with TestNG in this project.
+The website link can be found at localhost when the database runs.
 
 <h2 align="left">Task</h2>
 
@@ -62,7 +60,7 @@ The website link can be found in localhost when the database runs.
 - Framework: Selenium
 - IDE: Eclipse
 - Build tool: Maven
-- Language: Java, Javascript, HTML & CSS
+- Language: Java, JavaScript, HTML & CSS
 - Test_Runner: TestNG
 - Report - ExtentReports
   
