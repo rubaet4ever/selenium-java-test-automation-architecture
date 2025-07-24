@@ -55,7 +55,7 @@ The website link can be found at localhost when the database runs.
 - Logout
 
 
-<h2 align="left">Technology</h2>
+<h2 align="left">Installation Tools</h2>
   
 - Framework: Selenium
 - IDE: Eclipse
